@@ -11,6 +11,9 @@
 # Test binary, built with `go test -c`
 *.test
 
+# IDE folders
+.idea/
+
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
@@ -19,3 +22,9 @@
 
 # Go workspace file
 go.work
+
+# Secret
+CONST.go
+
+# Other Files
+bot.py
